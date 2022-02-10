@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-    background-image: url(img/wp6083640.png);
+    background-image:url(img/hátérkép.png);
 }
+#xboxh1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    background-color: black ;
+    border:  solid;
+}
+.kep{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+}
+.tablazat{
+    text-align: center;
+    background-color:white;
+    width: 100%;
+    border:solid;
+   
+}
+#h2{
+    color: red;
+    text-align: left;
+    font-size: 50px;
+    background-color: yellow;
+    width: 11.5%;
+}
+
+td{
+    border-width: 3px;
+    background-color: white;
+}
+table {border-collapse:collapse;}
+  table,td,th {
+      border:15px solid #107c11;
+       padding:5px;
+       }
