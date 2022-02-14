@@ -1,42 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-    background-image:url(img/hátérkép.png);
+    background-image: url(img/hátérkép.png);
+    background-size: cover;  
 }
-#xboxh1{
-    text-align: center;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 65px;
-    background-color: black ;
-    border:  solid;
+ 
+
+
+.container{
+
+    height: max-content
+;
+    width: max-content;
+    
+    float: left;
 }
-.kep{
-    width: 320px;
-    height: 320px;
-    margin: auto;
-    text-align: center;
-}
-.tablazat{
-    text-align: center;
-    background-color:white;
-    width: 100%;
-    border:solid;
-   
-}
-#h2{
-    color: red;
-    text-align: left;
-    font-size: 50px;
-    background-color: yellow;
-    width: 11.5%;
+ .box1{
+
+    background-color:green;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 45px;
+    transition: 1s;
+ }
+ 
+ .box2{
+
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 150px;
+    transition: 1s;
+ }
+
+ .box3{
+
+   background-color: green;
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin: 170px 80px 80px 150px;
+   transition: 1s;
 }
 
-td{
-    border-width: 3px;
-    background-color: white;
+.box4{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 150px;
+    transition: 1s;
 }
-table {border-collapse:collapse;}
-  table,td,th {
-      border:15px solid #107c11;
-       padding:5px;
-       }
+
+.box5{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 150px;
+    transition: 1s; 
+}
+
+
+ .box1:hover{
+
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 100px;
+ }
+ .box2:hover{
+
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 100px;
+ }
+
+ .box3:hover{
+
+   background-color: black;
+   transform: scale(1.2);
+   border-radius: 100px;
+}
+.box4:hover{
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 100px;
+}
+
+.box5:hover{
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 100px;
+}
+
+
+ 
