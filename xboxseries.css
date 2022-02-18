@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     background-image: url(img/hátérkép.png);
-    background-size: cover;  
+    background-size: cover;
 }
  
+#xboxh1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    background-color: black ;
+    border: solid;
+}
 
+.kep{
+    width: 200%;
+    height: 240%;
+    margin: auto;
+    text-align: center;
+}
+
+#h2{
+    color: red;
+    text-align: left;
+    font-size: 50px;
+    background-color: white;
+    width: 11.5%;
+}
 
 .container{
 
@@ -21,6 +44,7 @@ body{
     float: left;
     margin: 170px 80px 80px 45px;
     transition: 1s;
+    
  }
  
  .box2{
@@ -92,6 +116,5 @@ body{
     transform: scale(1.2);
     border-radius: 100px;
 }
-
 
  
