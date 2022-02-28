@@ -40,10 +40,21 @@ body{
     color: red;
 }
 
+.tokok {
+    width: 250px;
+    height: 350px;
+    border: 2px solid rgb(122, 146, 196);
+    display: inline-block;
+    margin: .4rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
 
-.a{
-
-background-color: red;
+.tokok:hover {
+    transition: .5s ease;
+    transform: scale(1.08);
 }
 
 
