@@ -40,12 +40,18 @@ body{
     color: red;
 }
 
-button{
+.button{
     background-color: green;
-    color: white;
     border: none;
-    padding:5px 32px ;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    padding: 5px 32px;
     text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+   
 }
 
 .game {
@@ -58,6 +64,20 @@ button{
     border-radius: 10px;
     text-align: center;
     padding: 20px;
+}
+
+
+.game2{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: .4rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
 }
 
 .game:hover {
