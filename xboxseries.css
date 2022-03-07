@@ -66,18 +66,10 @@ body{
     padding: 20px;
 }
 
-
-.game2{
-    width: 250px;
-    height: 350px;
-    border: 2px solid black;
-    display: inline-block;
-    margin: .4rem;
-    background-color: #ffffff;
-    border-radius: 10px;
-    text-align: center;
-    padding: 20px;
-
+.div{
+    width: 56.5%;
+    margin: auto;
+    padding: 10px;
 }
 
 .game:hover {
