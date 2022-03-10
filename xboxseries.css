@@ -68,7 +68,7 @@
     text-align: center;
 }
 
-.game:hover {
+.xboxgame:hover {
     transition: .5s ease;
     transform: scale(1.08);
 }
